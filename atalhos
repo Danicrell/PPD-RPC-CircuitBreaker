@@ -1,0 +1,11 @@
+para facilitar o video
+
+
+
+cd C:\Users\Daniel\Desktop\PPD-RPC
+
+.\venv\Scripts\activate
+
+python client.py
+
+python server.py
