@@ -1,4 +1,4 @@
-Relatório Técnico: Implementação de RPC com gRPC e Circuit Breaker
+# Relatório Técnico: Implementação de RPC com gRPC e Circuit Breaker
 
 1. O que foi feito
 
@@ -38,14 +38,14 @@ A função de adição é protegida por esse mecanismo
 Preparação:
 
 bash
-# Criar ambiente virtual
+Criar ambiente virtual
 python3 -m venv venv
 source venv/bin/activate
 
-# Instalar dependências
+Instalar dependências
 pip install grpcio grpcio-tools pybreaker
 
-# Gerar código do gRPC
+Gerar código do gRPC
 python3 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. grpcCalc.proto
 Execução:
 
